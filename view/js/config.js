@@ -1,6 +1,6 @@
 //=====================API===========================
 //BASE URL API
-const BASE_URL = 'http://localhost/shibashop-ketxeteam/';
+const BASE_URL = 'https://shibashop-ketxeteam.herokuapp.com/';
 
 //TEST API
 const TEST_API = 'api/test.php';
