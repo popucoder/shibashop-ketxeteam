@@ -5,6 +5,12 @@ header('Content-Type: application/json');
 require_once('../db/dbhelper.php');
 require_once('../utils/utility.php');
 
+
+if (isset($_GET)) {
+    doUserList();
+    die();
+}
+
 $action = getPOST('action');
 
 switch ($action) {
