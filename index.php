@@ -14,8 +14,8 @@
     </form>
     <button class="btn_get_userList">Lấy dữ liệu</button>
 
-    <script src="./js/config.js"></script>
-    <script src="./pages/home/index.js"></script>
+    <script src="./view/js/config.js"></script>
+    <script src="./view/pages/home/index.js"></script>
     
     <script src="./components/Product/index.js"></script>
 </body>

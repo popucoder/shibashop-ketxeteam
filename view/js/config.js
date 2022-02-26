@@ -1,6 +1,6 @@
 //=====================API===========================
 //BASE URL API
-const BASE_URL = 'http://localhost/shibashop-ketteam/server/';
+const BASE_URL = 'http://localhost/shibashop-ketteam/';
 
 //TEST API
 const TEST_API = 'api/test.php';
