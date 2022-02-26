@@ -7,16 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <form method="post" action="http://localhost/shibashop-ketteam/server/api/test.php">
-        <input type="text" name="action" placeholder="">
-        <input type="text" name="name" placeholder="name">
-        <button>Lay du lieu form</button>
-    </form>
+
+    <ul class="users">
+
+    </ul>
+    
     <button class="btn_get_userList">Lấy dữ liệu</button>
 
     <script src="./view/js/config.js"></script>
     <script src="./view/pages/home/index.js"></script>
-    
-    <script src="./components/Product/index.js"></script>
 </body>
 </html>
