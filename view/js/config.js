@@ -1,14 +1,14 @@
 //=====================API===========================
 //BASE URL API
-const BASE_URL = 'https://shibashop-ketxeteam.herokuapp.com/';
+const BASE_URL = 'http://localhost/shibashop-ketxeteam/';
 
-//TEST API
-const TEST_API = 'api/test.php';
+//USERS API
+const USERS_API = 'api/v1/users.php';
+
 //Action
-const TEST_USER_LIST = 'list';
 
 //Authen API
-const API_AUTHEN = 'api/authen.php';
+const API_AUTHEN = 'api/v1/authen.php';
 // Action
 const AUTHEN_LOGIN = 'login';
 const AUTHEN_REGISTER = 'register';
