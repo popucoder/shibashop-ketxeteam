@@ -7,11 +7,15 @@
     ?>
 
     <!-- CSS PAGE -->
+    <link rel="stylesheet" href="./view/pages/home/styles.css">
 
 </head>
 
 <body>
 
+    <?php
+        include_once('./view/components/Navbar/index.php');
+    ?>
 
 
     <ul class="users">

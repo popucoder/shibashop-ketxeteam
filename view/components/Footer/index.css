@@ -39,7 +39,7 @@
     justify-content: space-around;
     align-items: center;
 
-    padding: 8rem 5rem;
+    padding: 80px 50px;
 }
 
 .footer-content > * {
@@ -64,7 +64,7 @@
 .footer-content a {
     color: #999;
     font-size: 14px;
-    margin-bottom: 1.4rem;
+    margin-bottom: 14px;
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -78,7 +78,7 @@
     font-size: 40px;
     letter-spacing: 20px;
     line-height: 40px;
-    margin-bottom: 1.6rem;
+    margin-bottom: 16px;
 }
 .footer-content .footer-logo h2:hover {
     color: #fff;
@@ -86,8 +86,8 @@
 }
 
 .footer-content .footer-logo i {
-    font-size: 2rem;
-    margin-right: 0.5rem;
+    font-size: 20px;
+    margin-right: 5px;
 }
 
 .footer-content .information,
@@ -101,12 +101,12 @@
 
 .footer-content .information a,
 .footer-content .useful a {
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 }
 
 .footer-logo__social {
     display: flex;
-    margin-top: 1.6rem;
+    margin-top: 16px;
 }
 
 .footer-logo__social .social__icon {
@@ -115,8 +115,8 @@
 
 .footer-logo__social .social__icon i {
     color: #999;
-    font-size: 3rem;
-    margin-right: 4rem;
+    font-size: 30px;
+    margin-right: 40px;
 }
 
 .footer-logo__social .social__icon:hover {
@@ -146,7 +146,7 @@
 .footer-content .newsletter p {
     color: #fff;
     font-size: 14px;
-    margin-bottom: 2rem;
+    margin-bottom: 20px;
 }
 
 .newsletter .mail-user {
@@ -154,21 +154,21 @@
     border-radius: 30px;
     display: flex;
     align-items: center;
-    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    padding: 5px 5px 5px 10px;
     max-width: 500px;
 }
 
 .newsletter .mail-user input {
     background-color: transparent;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 14px;
     width: 60%;
 }
 
 .newsletter .mail-user .btn {
     border-radius: 30px;
-    height: 4rem;
-    font-size: 1.4rem;
+    height: 40px;
+    font-size: 14px;
     width: 40%;
     transition: all 0.3s ease;
 }
@@ -184,9 +184,8 @@
 }
 
 .footer__bottom p {
-    font-size: 1.4rem;
+    font-size: 14px;
 }
-
 
 @media (min-width: 740px) and (max-width: 1023px) {
     .footer-content {
@@ -195,13 +194,12 @@
     }
 
     .footer-content > * {
-        margin-top: 2rem;
+        margin-top: 20px;
         width: 50% !important;
     }
 }
 
 @media (max-width: 739px) {
-    
     .footer-content {
         flex-direction: column;
         align-items: flex-start;
@@ -210,6 +208,6 @@
 
     .footer-content > * {
         width: 100% !important;
-        margin-bottom: 3rem;
+        margin-bottom: 30px;
     }
 }

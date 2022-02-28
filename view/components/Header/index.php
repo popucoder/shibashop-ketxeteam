@@ -22,5 +22,5 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./view/css/base.css">
-    <link rel="stylesheet" href="./view/components/Header/index.css">
+    <link rel="stylesheet" href="./view/components/Navbar/index.css">
     <link rel="stylesheet" href="./view/components/Footer/index.css">

@@ -64,11 +64,23 @@ function doUserList() {
 function doGetUserById($username) {
     $sql = 'select * from users where username = "'.$username.'"';
     $result = executeResult($sql, true);
-    $res = [
-        'status' => 1,
-        'msg' => '',
-        'user' => $result
-    ];
+    $res = [];
+
+    if(isset($result)) {
+        $res = [
+            'status' => 1,
+            'msg' => '',
+            'user' => $result
+        ];
+    } else {
+        $res = [
+            'status' => 0,
+            'msg' => 'Not found user',
+            'user' => $result
+        ];
+    }
+
+    
     
     echo json_encode($res);
 }

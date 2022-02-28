@@ -29,13 +29,15 @@ $('.btn_get_user').onclick = () => {
     sendRequest('GET', url, {}, handleResult);
 
     function handleResult(response) {
-        let htmls = `
-            <li>
-                <h2>${response.user.fullname}</h2>
-                <p>${response.user.username}</p>
-                <p>${response.user.password}</p>
-            </li>
-            `;
+        let htmls = 'Khong tim thay user';
+        if (response.status != 0)
+            htmls = `
+                <li>
+                    <h2>${response.user.fullname}</h2>
+                    <p>${response.user.username}</p>
+                    <p>${response.user.password}</p>
+                </li>
+                `;
 
         $('.users').innerHTML = htmls;
     }
