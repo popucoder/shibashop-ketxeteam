@@ -62,7 +62,7 @@ function doUserList() {
 }
 
 function doGetUserById($username) {
-    $sql = 'select * from users where username = "'.$username.'"';
+    $sql = "select * from users where username = '$username'";
     $result = executeResult($sql, true);
     $res = [];
 

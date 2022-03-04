@@ -22,3 +22,7 @@ function fixSqlInjection($str) {
 	$str = str_replace("'", "\'", $str);
 	return $str;
 }
+
+function md5Security($pwd) {
+	return md5(md5($pwd).MD5_PRIVATE_KEY);
+}
